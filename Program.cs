@@ -1,10 +1,11 @@
 var builder = WebApplication.CreateBuilder(args);
 //THIS IS MY COMMENT
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
-
+//Comment
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
